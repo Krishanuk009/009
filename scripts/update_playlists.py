@@ -290,7 +290,7 @@ def fetch_yashiscool(url: str) -> str:
     return build_json_m3u(
         channels,
         default_group="English",
-        user_agent="Sayan10",
+        user_agent="IndTv",
         origin=None,
         referer=None,
     )
@@ -308,7 +308,7 @@ def fetch_star_sports(url: str) -> str:
     return build_json_m3u(
         channels,
         default_group="Sports",
-        user_agent="Sayan10",
+        user_agent="IndTv",
         origin="https://www.jiotv.com/",
         referer="https://www.jiotv.com/",
     )
@@ -328,7 +328,7 @@ def fetch_geoplus(url: str) -> str:
     return build_json_m3u(
         channels,
         default_group="Sports",
-        user_agent="Sayan10",
+        user_agent="IndTv",
         origin="https://www.jiotv.com/",
         referer="https://www.jiotv.com/",
     )
