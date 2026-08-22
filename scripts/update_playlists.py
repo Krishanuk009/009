@@ -389,14 +389,14 @@ PROVIDERS = [
         "s-sports.m3u",
         "https://sonujson-v3.pages.dev/Data/sports.json",
         "json",
-        "fetch_star_sports",
+        fetch_star_sports,
     ),
     Provider(
         "GeoPlus",
         "jtv+1.m3u",
         "https://raw.githubusercontent.com/qwerty180506/json/refs/heads/main/Geoplus.json",
         "json",
-        "fetch_geoplus",
+        fetch_geoplus,
     ),
     Provider(
         "Hotstar",
@@ -520,4 +520,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
-  
+      
