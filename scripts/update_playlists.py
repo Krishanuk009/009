@@ -337,63 +337,63 @@ def fetch_geoplus(url: str) -> str:
 PROVIDERS = [
     Provider(
         "Yashiscool JioTV",
-        "yashiscool-jiotv.m3u",
+        "jtv1.m3u",
         "https://raw.githubusercontent.com/yashiscool123/TV-/refs/heads/main/jtv.json",
         "json",
         fetch_yashiscool,
     ),
     Provider(
         "SixPG JioTV",
-        "sixpg-jiotv.m3u",
+        "jtv2.m3u",
         "https://raw.githubusercontent.com/sixpg/zeyo-test/refs/heads/main/jtv.m3u",
         "m3u",
         fetch_m3u_provider,
     ),
     Provider(
         "Sayan JioTV",
-        "sayan-jiotv.m3u",
+        "jtv3.m3u",
         "https://sayan-jiotv.spal75084.workers.dev/jtv.m3u",
         "m3u",
         fetch_m3u_provider,
     ),
     Provider(
         "StreamStar JioTV",
-        "streamstar-jiotv.m3u",
+        "jtv4.m3u",
         "https://mute-sunset-8225.streamstar18.workers.dev/",
         "m3u",
         fetch_m3u_provider,
     ),
     Provider(
         "Alex JioTV",
-        "alex-jiotv.m3u",
+        "jtv5.m3u",
         "https://raw.githubusercontent.com/alex4528y/m3u/refs/heads/main/jtv.m3u",
         "m3u",
         fetch_m3u_provider,
     ),
     Provider(
         "STBPLUS JioTV",
-        "stbplus-jiotv.m3u",
+        "jtv6.m3u",
         "https://raw.githubusercontent.com/Sflex0719/STBPLUS/refs/heads/main/Zio.m3u",
         "m3u",
         fetch_m3u_provider,
     ),
     Provider(
         "STBPLUS JioTV Mobile",
-        "stbplus-jiotv-mobile.m3u",
+        "jtv7.m3u",
         "https://raw.githubusercontent.com/Sflex0719/STBPLUS/refs/heads/main/ZioMobile.m3u",
         "m3u",
         fetch_m3u_provider,
     ),
     Provider(
         "Star Sports",
-        "star-sports.m3u",
+        "s-sports.m3u",
         "https://sonujson-v3.pages.dev/Data/sports.json",
         "json",
         "fetch_star_sports",
     ),
     Provider(
         "GeoPlus",
-        "geoplus.m3u",
+        "jtv+1.m3u",
         "https://raw.githubusercontent.com/qwerty180506/json/refs/heads/main/Geoplus.json",
         "json",
         "fetch_geoplus",
@@ -520,4 +520,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
-
+  
