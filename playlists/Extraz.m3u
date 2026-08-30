@@ -1309,3 +1309,7 @@ http://line.krishkaz.com/live/AdemSarikaya/16A525/1441496.ts
 http://line.krishkaz.com/live/AdemSarikaya/16A525/1441501.ts
 #EXTINF:-1 tvg-id="1441570" group-title="Hindi",NAZARA TV
 http://line.krishkaz.com/live/AdemSarikaya/16A525/1441570.ts
+#EXTINF:-1 tvg-id="unite8.1" tvg-logo="https://i.ibb.co/1YMYVKj8/UNITE8-SPORTS-1-HD-logo-transparent.png" group-title="Sports",Unite8 Sports 1 HD 
+http://skyfilex.fun:80/live/252234755968/537566565259/741567.ts
+#EXTINF:-1 tvg-id="unite8.2" tvg-logo="https://i.ibb.co/rG0c2hTB/UNITE8-SPORTS-2-HD-logo-transparent.png" group-title="Sports",Unite8 Sports 2 HD
+http://skyfilex.fun:80/live/252234755968/537566565259/745202.ts
